@@ -1,0 +1,167 @@
+body {
+  margin-top: 100px;
+  font-family: ;
+  background-color: #000;
+}
+#navbar1 {
+  height: 100%;
+  padding-top: 150px;
+}
+.navbar {
+  background-color: #000;
+  overflow: hidden;
+  margin-top: -8px;
+  padding: 5px 0px;
+
+  z-index: 1;
+  width: 100%;
+  top: 8px;
+  border-radius: 0px;
+}
+.fixed {
+  position: fixed;
+}
+.static {
+  position: absolute;
+  margin-top: 300px;
+}
+.iblock {
+  display: inline-block;
+}
+.floatl {
+  float: left;
+  display: block;
+}
+.floatr {
+  display: block;
+  float: right;
+  
+}
+.centers {
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+input[type=text] {
+    background-color: #222;
+    color: white;
+    border: solid #222;
+  outline: none;
+  border-radius: 0px;
+}
+#search {
+  border-top: -1px;
+  border-radius: 0px;
+}
+.searchfield {
+  margin-top: -0.1px;
+  width: 400px;
+  height: 40px;
+  font-size: 28px;
+}
+#searchterm {
+  color: white;
+}
+#st {
+  font-size: 28px;
+  border-left: solid orange 5px;
+  padding-left: 10px;
+}
+.button {
+  height: 40px;
+  font-size: 28px;
+  color: white;
+  background-color: #222;
+  border: none;
+  border-radius: 0px;
+  outline: none;
+}
+.button:hover {
+  transition: 0.3s;
+  border-left: solid orange 5px;
+}
+#pageti {
+  font-family: pacifico;
+  font-size: 32px;
+  color: white;
+}
+.orange {
+  color: orange;
+}
+.hovshad:hover {
+  color: black;
+  box-shadow: 1px 1px 5px 0 black;
+}
+.clickshad:active {
+  color: black;
+  box-shadow: 1px 1px 5px 0 black inset;
+}
+.navbar .dropbutton {
+  display: none;
+}
+#navmid {
+  margin-top: 6px;
+}
+#results {
+  opacity: 0;
+  position: static;
+ 
+}
+#ar *{
+  text-decoration: none;
+  position: static;
+  
+}
+
+ul {
+  display: block;
+  margin-bottom: 20px;
+  background-color: #333;
+  list-style: none;
+  padding: 12px;
+  color: white;
+  border-bottom: solid white 1px;
+}
+ul:hover {
+  transition: 0.3s;
+
+  border-left: solid orange 10px;
+}
+.title {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 835px) {
+  body {
+    margin-top: 130px;
+  }
+  .centers {
+    float: left;
+    margin-left: 14px;
+    display: block;
+    clear: both;
+  }
+  .searchfield {
+    width: 200px;
+    float: left;
+  }
+  .button {
+    font-size: 18px;
+  }
+  .srch {
+    margin-left: 4px;
+  }
+  .randm {
+
+  }
+}
+@media screen and (max-width: 375px) {
+  .searchfield {
+    width: 200px;
+    float: left;
+  }
+    .button {
+    font-size: 14px;
+  }
+}
