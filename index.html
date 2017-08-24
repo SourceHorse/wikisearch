@@ -14,49 +14,29 @@
 
 <body>
   <div class="navbar" id="navbar1">
-
   <div id = "pageti" class = "floatl reload"> 
-    <p class = "floatl orange">//</p><p class = "floatl" >WikiSearch</p>
+    <p class = "floatl orange">//</p>
+    <p class = "floatl" >WikiSearch</p>
   </div>
-<div class = "centers">
-<div class = "row">
- <div id = "navmid">
-    <form name = "wQuery" action = "" method = "GET" class = "iblock" onSubmit = "return false">
-      
-    <input type = "text" name = "searchbox" class = "searchfield" id = "search" value = "">
-    
-    <input type = "button" name = "qButton" class = "button srch" value = "Search" onClick = "test(this.form)">
-     
-      
-  </form>
-
-
-  <a id = "rand" href = "https://en.wikipedia.org/wiki/Special:Random"><button class = "button randm">Random</button></a>
-
+  <div class = "centers">
+    <div id = "navmid">
+      <form name = "wQuery" action = "" id = "serchform" method = "GET" class = "iblock" autocomplete="off" onSubmit = "return false">
+        <input type = "text" name = "searchbox" class = "searchfield" id = "search" value = "">
+        <input type = "button" name = "qButton" class = "button srch" value = "Search" onClick = "srch(this.form)">
+      </form>
+      <a id = "rand" href = "https://en.wikipedia.org/wiki/Special:Random"><button class = "button randm">Random</button></a>
+    </div>
   </div>
-
-  </div>
-  <!--<a href="#" class = "floatr" onclick="unDrop()">Button 1</a>
-
- <!-- <a href="javascript:void(0);" class="dropbutton floatr" onclick="dropMenu()">&#9776;</a>
- col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4
-
--->
-
-</div>
-
 </div>
 <div class = "container">
   <div id = "results">
-<div id = "searchterm">
-</div>
-
-<br>
-
-<div id = "ar">
-</div>
+    <div id = "searchterm">
+    </div>
+    <br>
+    <div id = "ar">
+    </div>
   </div>
-</div>
+  </div>
 <!-- Ross Scarborough -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>

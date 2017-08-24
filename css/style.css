@@ -12,7 +12,6 @@ body {
   overflow: hidden;
   margin-top: -8px;
   padding: 5px 0px;
-
   z-index: 1;
   width: 100%;
   top: 8px;
@@ -35,7 +34,6 @@ body {
 .floatr {
   display: block;
   float: right;
-  
 }
 .centers {
   text-align: center;
@@ -44,21 +42,21 @@ body {
   text-align: center;
 }
 input[type=text] {
-    background-color: #222;
-    color: white;
-    border: solid #222;
+  background-color: #222;
+  color: white;
+  border: solid #222;
   outline: none;
   border-radius: 0px;
 }
 #search {
-  border-top: -1px;
+  border-top:;
   border-radius: 0px;
 }
 .searchfield {
-  margin-top: -0.1px;
+  margin-top:;
   width: 400px;
   height: 40px;
-  font-size: 28px;
+  font-size: 26px;
 }
 #searchterm {
   color: white;
@@ -70,7 +68,7 @@ input[type=text] {
 }
 .button {
   height: 40px;
-  font-size: 28px;
+  font-size: 26px;
   color: white;
   background-color: #222;
   border: none;
@@ -85,6 +83,7 @@ input[type=text] {
   font-family: pacifico;
   font-size: 32px;
   color: white;
+  margin-top: 0px;
 }
 .orange {
   color: orange;
@@ -106,14 +105,11 @@ input[type=text] {
 #results {
   opacity: 0;
   position: static;
- 
 }
 #ar *{
   text-decoration: none;
   position: static;
-  
 }
-
 ul {
   display: block;
   margin-bottom: 20px;
@@ -125,16 +121,14 @@ ul {
 }
 ul:hover {
   transition: 0.3s;
-
   border-left: solid orange 10px;
 }
 .title {
   font-size: 20px;
 }
-
 @media screen and (max-width: 835px) {
   body {
-    margin-top: 130px;
+    margin-top: 105px;
   }
   .centers {
     float: left;
@@ -152,8 +146,9 @@ ul:hover {
   .srch {
     margin-left: 4px;
   }
-  .randm {
-
+  #pageti {
+    margin-bottom: -18px;
+    margin-left: 14px;
   }
 }
 @media screen and (max-width: 375px) {
@@ -161,7 +156,7 @@ ul:hover {
     width: 200px;
     float: left;
   }
-    .button {
+  .button {
     font-size: 14px;
   }
 }
